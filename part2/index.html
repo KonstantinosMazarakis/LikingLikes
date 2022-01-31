@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Liking Likes</title>
+  </head>
+  <body>
+    <div class="everything">
+      <nav>
+        <h1>Network<h1>
+      </nav>
+      <header>
+        <h1>Your Feed</h1>
+      </header>
+      <main>
+        <!-- left -->
+        <div class="leftSide">
+        <!-- prfile -->
+          <div class="profile">
+            <img src="./assets/face.png" alt="profile pic">
+            <p><a href="#">Add an avatar</a></p>
+            <h2>Kostas Mazarakis</h2>
+          </div>
+        </div>
+        <!-- rightside -->
+        <div class="rightSide">
+        <!-- fistbox -->
+          <div class="tweet">
+            <div class="user">
+          <h1>Neil M</h1>
+          <div class="likes">
+            <p><span id="like1">0</span> like(s)</p>
+            <button id="likeButton1" onclick="likeMachine(0)">Like</button>
+          </div>
+        </div>
+        <p id="lorem">
+          I just set up this new discord bot, let me know what you all think. <a href="#">link</a>
+        </p>
+      </div>
+      <!-- secondbox -->
+      <div class="tweet">
+        <div class="user">
+      <h1>Nichole K</h1>
+      <div class="likes">
+        <p><span id="like2">0</span> like(s)</p>
+        <button id="likeButton2" onclick="likeMachine(1)">Like</button>
+      </div>
+    </div>
+    <p id="lorem">
+      Just finished my <a href="#">next comic</a>, check it out.
+    </p>
+  </div>
+    <!-- thirdbox -->
+    <div class="tweet">
+      <div class="user">
+    <h1>Jim R</h1>
+    <div class="likes">
+      <p><span id="like3">0</span> like(s)</p>
+      <button id="likeButton3" onclick="likeMachine(2)">Like</button>
+    </div>
+  </div>
+  <p id="lorem">
+      i can't stop listening to the <a href="#">new album</a>.
+  </p>
+  <p>Who else is linking it?</p>
+</div>
+
+    </div>
+
+    </main>
+
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
